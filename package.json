@@ -1,0 +1,24 @@
+{
+  "name": "task_manager",
+  "version": "1.0.0",
+  "description": "simple application that applies basics of nodejs with RESTAPIs and CRUD operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "crud",
+    "rest",
+    "APIs",
+    "task_manager",
+    "express"
+  ],
+  "author": "Ahmed Samir",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
