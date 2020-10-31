@@ -1,5 +1,5 @@
 module.exports = (app) => {
-    const tasks = require('../controllers/taks.controller.js');
+    const tasks = require('../controllers/task.controller.js');
 
     app.post('/api/tasks', tasks.create);
 
