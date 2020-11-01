@@ -8,8 +8,7 @@ This app is created to perform essential operations on task entity. IN this app 
 ## add task
 ### endpoint: http://localhost:8080/api/tasks
 ### method: POST
-### body:
-{
+### body:{
     "title":"set_task_title",
     "description":"set_task_description"
 }
