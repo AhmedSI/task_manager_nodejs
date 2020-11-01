@@ -6,46 +6,46 @@ This app is created to perform essential operations on task entity. IN this app 
 # endpoionts
 
 ## add task
-endpoint: http://localhost:8080/api/tasks
-method: POST
-body:
+### endpoint: http://localhost:8080/api/tasks
+### method: POST
+### body:
 {
     "title":"set_task_title",
     "description":"set_task_description"
 }
 
 ## get all tasks
-endpoint: http://localhost:8080/api/tasks
-method: GET
+### endpoint: http://localhost:8080/api/tasks
+### method: GET
 
 ## get some task by Id
-endpoint: http://localhost:8080/api/tasks/:taskId
-param: taskId (type:number)
-method: GET
+### endpoint: http://localhost:8080/api/tasks/:taskId
+### param: taskId (type:number)
+### method: GET
 
 ## search by title or description
-endpoint: http://localhost:8080/api/tasks/search/:searchTerm
-param: searchTerm (type:text)
-method: GET
+### endpoint: http://localhost:8080/api/tasks/search/:searchTerm
+### param: searchTerm (type:text)
+### method: GET
 
 ## update some task
-endpoint: http://localhost:8080/api/tasks/:taskId
-param: taskId (type:number)
-method: PUT
-body:{
+### endpoint: http://localhost:8080/api/tasks/:taskId
+### param: taskId (type:number)
+### method: PUT
+### body:{
     "title":"new_title",
     "description":"new_description"
 }
 
 ## toggle some task
-endpoint: http://localhost:8080/api/tasks/toggle/:taskId
-param: taskId (type:number)
-method: PUT
+### endpoint: http://localhost:8080/api/tasks/toggle/:taskId
+### param: taskId (type:number)
+### method: PUT
 
 ## delete some task
-endpoint: http://localhost:8080/api/tasks/:taskId
-param: taskId (type:number)
-method: DELETE
+### endpoint: http://localhost:8080/api/tasks/:taskId
+### param: taskId (type:number)
+### method: DELETE
 
 
 
